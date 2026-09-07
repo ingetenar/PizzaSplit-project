@@ -1,0 +1,17 @@
+﻿<Window x:Class="PizzaSplit.WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PizzaSplit.WpfApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txtPeople" HorizontalAlignment="Left" Margin="308,182,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="txtPeople_TextChanged"/>
+        <Button Content="Arvuta" HorizontalAlignment="Left" Margin="348,297,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <TextBox x:Name="txtTotal" HorizontalAlignment="Left" Margin="308,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="txtTotal_TextChanged"/>
+        <TextBlock x:Name="txtResult" HorizontalAlignment="Left" Margin="340,348,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="56"/>
+        <CheckBox x:Name="chkTip" Content="Lisa 10% jootraha" HorizontalAlignment="Left" Margin="315,240,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
